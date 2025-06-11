@@ -1,0 +1,35 @@
+# Arquivos de Bytecode e Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pastas de Ambiente Virtual
+# Adicione o nome da sua pasta venv aqui. 
+# É bom incluir outros nomes comuns também.
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# Arquivos e pastas de configuração de Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pastas de distribuição e build
+/dist/
+/build/
+
+# Arquivos de dependências específicos do sistema
+*.egg-info/
+/site/
+
+# Arquivos de ambiente (contêm senhas e chaves secretas!)
+.env
+.env.*
+
+# Logs
+*.log
