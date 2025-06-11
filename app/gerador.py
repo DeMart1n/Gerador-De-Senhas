@@ -3,7 +3,7 @@ import string
 
 def gerar_senha(tamanho: int = 12)-> str:
     
-    caracteres = string.ascii_letters + string.digits;
+    caracteres = string.ascii_letters + string.digits + string.punctuation;
     senha_gerada = ''.join(secrets.choice(caracteres) for i in range(tamanho))
     return senha_gerada
 
